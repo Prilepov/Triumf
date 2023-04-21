@@ -8,7 +8,7 @@
     --txtclr: #333333;
     --accentclr: #FF8C03;
     --otstp: 1.36rem;
-    --greyclr: #EEEEEE;
+    --greyclr: linear-gradient(109.92deg, #1E1E1E -0.37%, #151515 60.6%, #1E1E1E 100%);
     --greyscndclr: #D9D9D9;
 
     --trmfback: #1c1c1c;
@@ -16,6 +16,8 @@
     --trmforng: #FF8C03;
     --trmfgrey: #D9D9D9;
     --trnfgreytxt: #a4a4a4;
+
+    --trnfgrdnt: linear-gradient(109.92deg, #1E1E1E -0.37%, #151515 60.6%, #1E1E1E 100%);
 }
 
 body {
@@ -777,6 +779,7 @@ footer a {
 
 .cardtxtfrm select {
     width: 15em;
+    font-size: calc(9px + 8 * (100vw / 1920));
 }
 
 .cardtxtfrm>div {
@@ -837,7 +840,8 @@ footer a {
     width: 5.55em;
     font-size: calc(14px + 8 * (100vw / 1920));
     display: inline-block;
-    padding: 0.5em;
+    padding: 0.2em;
+    padding-right: 8em;
     background: #F0F0E8;
     box-shadow: 0px 0px 4px #BCBCBC;
     margin-top: 1em;
@@ -850,7 +854,6 @@ footer a {
 
 .ildprice {
     color: var(--greyscndclr);
-    text-decoration: line-through;
 }
 
 .trprice {
@@ -865,7 +868,7 @@ footer a {
     font-size: calc(14px + 13 * (100vw / 1920));
     text-align: center;
     padding: 1.7em 8%;
-    background-color: #F6F6F6;
+    background-color: var(--trmfbacklght);
     margin: 0;
 }
 
@@ -897,7 +900,7 @@ footer a {
 }
 
 .cardtablcol>div:nth-child(odd) {
-    background-color: #D9D9D9;
+    background-color: var(--trmfbacklght);
 }
 
 .cardtablcol>div p {
@@ -1179,4 +1182,14 @@ footer a {
 
 .ourwrksslic:hover .ourwrksslicinf {
     display: flex;
+}
+
+/* Triumf Card page */
+
+.cardlead {
+    background: var(--trnfgrdnt);
+}
+
+.lnkaddrhed {
+    background: var(--trnfgrdnt);
 }
