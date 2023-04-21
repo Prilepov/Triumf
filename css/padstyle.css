@@ -1,0 +1,456 @@
+@media screen and (max-width: 744px) {
+    :root {
+        --txtclr: #333333;
+        --accentclr: #960102;
+        --otstp: 0.88rem;
+        --greyclr: #EEEEEE;
+        --greyscndclr: #A4A4A4;
+    }
+
+    body {
+        font-size: calc(8px + 14 * (100vw / 1920));
+    }
+
+    h1 {
+        font-size: calc(34px + 20 * (100vw / 1920));
+    }
+
+    button {
+        font-size: calc(11px + 7 * (100vw / 1920));
+        font-weight: 400;
+    }
+
+    .leadwrpr {
+        min-height: 33em;
+    }
+
+    .fullctlgwrpr, .fullctlg>div:nth-child(2) {
+        min-height: 42.11em;
+    }
+
+    .fullctlg>div:nth-child(2) {
+        background-image: url(../images/fullimgpad.jpg);
+    }
+
+    .leadtxt {
+        min-width: 15.41em;
+        padding-right: var(--otstp);
+    }
+
+    .fullctlgwrpr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .leadwrpr h1 {
+        font-size: calc(42px + 56 * (100vw / 1920));
+    }
+
+    .fullctlgwrpr h1 {
+        font-size: calc(36px + 56 * (100vw / 1920));
+    }
+
+    .leadwrpr button {
+        padding: 0.4em 2em;
+        width: 100%;
+    }
+
+    .ctlgexmplwrpr {
+        justify-content: space-between;
+        padding-left: var(--otstp);
+        padding-right: var(--otstp);
+        gap: 0;
+    }
+
+    .ctlgdrswrpr>h1 {
+        padding-bottom: 1rem;
+        padding-left: var(--otstp);
+    }
+
+    .ctlgexmpl1of3 {
+        width: 31.9%;
+    }
+
+    .ctlgdrslftmnu {
+        width: 29.5vw;
+        margin-right: 0.82em;
+    }
+
+    .ctlgdrsctlg {
+        margin-right: 0;
+        height: 100%;
+    }
+
+    .ctlgdrsctlgrght * {
+        font-size: calc(8px + 14 * (100vw / 1920));
+    }
+
+    .ctlgdrsctlg1el {
+        width: 47%;
+        margin-bottom: 0.4%;
+    }
+
+    .akcsldrslctxt {
+        width: 100%;
+        padding-right: 7%;
+    }
+
+    .akcsldrslctxt p {
+        width: 100%;
+    }
+
+    .prevar, .nextar {
+        width: 0.82em;
+    }
+
+    .slick-dots {
+        bottom: 1em;
+    }
+
+    .akcsldrslc {
+        height: 30.94em;
+    }
+
+    .drwrkslc>div:not(.drwrkslcimghldr) {
+        padding: 2.32em;
+    }
+
+    .drwrkslc>div img {
+        object-position: center;
+    }
+
+    .addrstxt {
+        width: 47.76%;
+        align-items: flex-start;
+        background: linear-gradient(90deg, #EEEEEE 76.8%, rgba(238, 238, 238, 0) 100%);
+        padding-left: var(--otstp);
+    }
+
+    .txtsldrarr {
+        top: 42%;
+    }
+
+    .usrdatefrm input {
+        padding: 0.27em;
+    }
+
+    .addrstxtbdy button {
+        padding: 0.4em 2em;
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    .ftrmnuul {
+        gap: 2.3em;
+    }
+
+    .addrstxtbdy button {
+        width: auto;
+        align-self: center;
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+    /* CardpageDL */
+    .lftimg {
+        width: 29.5%;
+    }
+
+    .cardimg {
+        width: 70.5%;
+    }
+
+    .cardtxt {
+        padding: var(--otstp);
+    }
+
+    .cardtxtfrm {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .cardtxtfrm .cardtxtdiv1, .cardtxtfrm .cardtxtdiv2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cardtxtfrm .cardtxtdiv1>div, .cardtxtfrm .cardtxtdiv2>div {
+        width: 50%;
+    }
+
+    .cardtxtdiv1>div>div {
+        margin-top: 1em;
+    }
+
+    .cardtxtfrm label {
+        font-size: calc(12px + 11 * (100vw / 1920));
+        margin-bottom: 1em;
+    }
+
+    #strnopndrs>div label {
+        font-size: calc(8px + 14 * (100vw / 1920));
+        width: 40%;
+    }
+
+    .cardtxtdiv2>div, #clsizns {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #clsizns span {
+        margin-top: 0.2em;
+    }
+
+    #price {
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+    }
+
+    .cardtxt button {
+        width: 100%;
+    }
+
+    .drshrttxt h2 {
+        padding-left: var(--otstp);
+        padding-right: var(--otstp);
+        font-size: calc(8px + 14 * (100vw / 1920));
+    }
+
+    .cardtablwrpr {
+        flex-direction: column;
+    }
+
+    .cardtablwrpr>div {
+        width: 100%;
+    }
+
+    .cdsww>div>h1 {
+        text-align: center;
+        padding: var(--otstp);
+        font-size: calc(29px + 20 * (100vw / 1920));
+    }
+
+    .carddrssldrwrpr {
+        width: 92%;
+    }
+
+    .stockinfo {
+        align-items: stretch;
+    }
+
+    .stockinfo div:nth-child(2) img {
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .stockinfo {
+        flex-direction: column;
+    }
+
+    .stockinfo>div, .stockinfo div:nth-child(1), .stockinfo div:nth-child(2) {
+        width: 100%;
+    }
+
+    .aboutwrpr>h1 {
+        font-size: calc(19px + 116 * (100vw / 1920));
+    }
+
+    .aboutbott {
+        align-items: stretch;
+        flex-direction: row-reverse;
+    }
+
+    .aboutbott div img {
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .aboutwrpr>h1+p {
+        font-size: calc(14px + 8 * (100vw / 1920));
+    }
+
+    /* Delivery */
+    .deliverywrpr {
+        flex-direction: column-reverse;
+        padding-left: 0;
+    }
+
+    .deliveryleadtxt {
+        padding-left: var(--otstp);
+    }
+
+    .deliveryimg {
+        width: 100%;
+        height: 32em;
+    }
+
+    .deliveryimg img {
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .ourwrksslicinf p {
+        font-size: calc(13px + 8 * (100vw / 1920));
+    }
+
+    .ourwrksslic {
+        width: 30.2%;
+    }
+
+    .brgrbtn, header input[type="checkbox"]+label, header input[type="checkbox"]+label::before, header input[type="checkbox"]:checked+label::before {
+        z-index: 77;
+        position: absolute;
+        top: 3rem;
+        right: 0;
+        width: auto;
+        height: 1.5rem;
+        border: none;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .brgrbtn span, .brgrbtn span::before, .brgrbtn span::after {
+        content: '';
+        width: 3.13rem;
+        height: 0.2rem;
+        background-color: var(--accentclr);
+        display: block;
+    }
+
+    .brgrbtn span {
+        position: relative;
+        top: 2rem;
+    }
+
+    .brgrbtn span::before {
+        position: absolute;
+        top: -0.7rem;
+    }
+
+    .brgrbtn span::after {
+        position: absolute;
+        bottom: -0.7rem;
+    }
+
+    .brgrmn {
+        display: none;
+    }
+
+    .brgrmn.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        background-color: var(--accentclr);
+    }
+
+    header {
+        min-height: 6rem;
+    }
+
+    .headeract {
+        height: 100vh;
+        position: fixed;
+    }
+
+    .brgrmn>a {
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        margin-top: 1em;
+    }
+
+    .crossfst {
+        transform: rotate(45deg);
+    }
+
+    .crossbf {
+        top: 0;
+        transform: rotate(86deg);
+    }
+
+    .crossaft {
+        bottom: 0;
+    }
+
+    #menu__toggle {
+        display: block;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .brgrbtn, header input[type="checkbox"]+label {
+        height: 4rem;
+        margin-top: 1.5em;
+        margin-bottom: 0em;
+        margin-right: 1rem;
+        cursor: pointer;
+        top: 0.7rem;
+    }
+
+    header input[type="checkbox"]:checked+label>span {
+        transform: rotate(45deg);
+        background-color: #FFFFFF;
+    }
+
+    header input[type="checkbox"]:checked+label>span::before {
+        top: 0;
+        transform: rotate(86deg);
+        background-color: #FFFFFF;
+    }
+
+    header input[type="checkbox"]:checked+label>span::after {
+        bottom: 0;
+        background-color: #FFFFFF;
+    }
+
+    .hdrnv {
+        width: 100%;
+    }
+
+    .hdrul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        border: none;
+    }
+
+    .hdrul>li {
+        width: 50%;
+        text-align: center;
+    }
+
+    .hdrul>li a {
+        color: #FFFFFF;
+        font-size: calc(10px + 14 * (100vw / 1920));
+    }
+
+    .brgrmn .ordrdrbtn {
+        align-self: center;
+        padding: 0.7em 4em;
+        margin-top: 2em;
+    }
+
+    .addrgbrgr {
+        background-color: var(--greyclr);
+        border-radius: 15px;
+        margin: var(--otstp);
+    }
+
+    .addrgbrgr .addrstxtsldrslc {
+        float: unset;
+        height: auto;
+        width: 33% !important;
+        border: none;
+    }
+
+    .addrgbrgr {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
