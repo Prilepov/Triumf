@@ -164,7 +164,7 @@ tbody {
 /* Lead page */
 
 /* LP Lead screen */
-.leadwrpr {
+.leadwrprtriumf {
     display: flex;
     justify-content: space-between;
     padding-left: var(--otstp);
@@ -172,24 +172,24 @@ tbody {
     background: linear-gradient(109.92deg, #1E1E1E -0.37%, #151515 60.6%, #1E1E1E 100%);
 }
 
-.leadwrpr h1 {
+.leadwrprtriumf h1 {
     font-weight: 600;
     font-size: calc(42px + 118 * (100vw / 1920));
     color: #FFFFFF;
 }
 
-.leadwrpr h1::first-line {
+.leadwrprtriumf h1::first-line {
     color: var(--trmforng);
 }
 
-.leadwrpr button {
+.leadwrprtriumf button {
     padding: 1.36em 4.73em;
     color: #FFFFFF;
     background-color: var(--trmforng);
     margin-top: 2.45em;
 }
 
-.leadtxt {
+.leadtxttriumf {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -197,12 +197,12 @@ tbody {
     min-width: 33.41em;
 }
 
-.leadtxt * {
+.leadtxttriumf * {
     margin: 0;
     color: #FFFFFF;
 }
 
-.leadwrpr>div:nth-child(2) {
+.leadwrprtriumf>div:nth-child(2) {
     width: 100%;
     background-image: url(/images/bkglead.jpg);
     background-repeat: no-repeat;
@@ -264,24 +264,24 @@ tbody {
 }
 
 /* LP Catalog Doors */
-.ctlgdrswrpr {
+.ctlgdrswrprtriumf {
     background-color: linear-gradient(109.92deg, #1E1E1E -0.37%, #151515 60.6%, #1E1E1E 100%);
     padding-bottom: 6.2%;
 }
 
-.ctlgdrswrpr>h1 {
+.ctlgdrswrprtriumf>h1 {
     margin: 0;
     padding-left: var(--otstp);
     color: #FFFFFF;
 }
 
-.ctlgdrsbdy {
+.ctlgdrsbdytriumf {
     background-color: var(--trmfback);
     display: flex;
     flex-direction: row;
 }
 
-.ctlgdrslftmnufrm {
+.ctlgdrslftmnufrmtriumf {
     display: flex;
     flex-direction: column;
 }
@@ -316,7 +316,7 @@ input[type="checkbox"]:checked+label::before {
     background-clip: content-box;
 }
 
-.ctlgdrslftmnu {
+.ctlgdrslftmnutriumf {
     width: 16.3vw;
     background-color: var(--trmfbacklght);
     padding: 1.1em 0.36em 2.18em 0.91em;
